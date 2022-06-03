@@ -40,6 +40,7 @@ menuElement.classList.remove('active')
 }
 
 function ShowNavOnScroll() {
+    let navigation = document.querySelector("nav")
   if (scrollY > 0) {
   navigation.classList.add('scroll')
 } else {
